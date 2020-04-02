@@ -9,7 +9,7 @@ services:
      backend:
            container_name: backend
            restart: always
-           image: diptochakrabarty/backendv2
+           image: diptochakrabarty/webinar:backendv2
            ports:
                 - "3006:3000"
      mongli:
