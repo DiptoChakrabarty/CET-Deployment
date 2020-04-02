@@ -3,13 +3,13 @@ services:
      frontend:
            container_name: frontend
            restart: always
-           image: react:appv2
+           image: diptochakrabarty/webinar:frontv1
            ports:
                 - "3007:3000"
      backend:
            container_name: backend
            restart: always
-           image: backend:v1
+           image: diptochakrabarty/backendv2
            ports:
                 - "3006:3000"
      mongli:
